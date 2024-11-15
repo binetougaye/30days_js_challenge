@@ -102,8 +102,14 @@ console.log(Math.round(Math.random() * (100 - 50 + 1) + 50))
 console.log(Math.floor(Math.random() * 256));
 // Access the 'JavaScript' string characters using a random number.
 const randoms = "JavaScript"
-const randomsLetter = Math.floor(Math.random() * randoms.length)
-console.log(randomsLetter);
+const tab = Array.from(randoms)
+console.log(tab);
+for (let i = 0; i < tab.length; i++) {
+
+
+}
+
+
 // Use console.log() and escape characters to print the following pattern.
 const firstLine = "1"
 console.log("1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125");
