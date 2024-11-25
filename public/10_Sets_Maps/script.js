@@ -46,6 +46,13 @@ console.log(C);
 // Find a with b
 const unionAwithB = [...a, ...b]
 console.log(unionAwithB);
+async function test() {
+    const posts = await fetch("https://jsonplaceholder.typicode.com/todos/")
+    const getPosts = await posts.json()
+    console.log(getPosts);
+
+}
+test()
 
 
 
