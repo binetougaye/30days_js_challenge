@@ -3,22 +3,43 @@
 <html lang="en">
     <head>
         <title>JavaScript for Everyone:DOM</title>
+        <style>
+            .time {
+                text-align: center;
+            }
+            .listContainer li {
+                margin-top: 5px;
+            }
+        </style>
     </head>
     <body>
         <div class="wrapper">
             <div>
                 <h1>
-                    Asabeneh Yetayeh challenges in <span id="span">2020</span>
+                    Asabeneh Yetayeh challenges in <span id="span">2025</span>
                 </h1>
                 <h2 class="title">30DaysOfJavaScript Challenge</h2>
+                <div class="time">
+                    <span id="heure"></span>
+                    <span id="minute"></span>
+                    <span id="seconde"></span>
+                    <span id="time"></span>
+                    <span id="day"></span>
+                    <span id="year"></span>
+                </div>
+
                 <ul class="listContainer">
-                    <li>30DaysOfPython Challenge Done</li>
-                    <li>30DaysOfJavaScript Challenge Ongoing</li>
-                    <li>30DaysOfReact Challenge Coming</li>
-                    <li>30DaysOfFullStack Challenge Coming</li>
-                    <li>30DaysOfDataAnalysis Challenge Coming</li>
-                    <li>30DaysOfReactNative Challenge Coming</li>
-                    <li>30DaysOfMachineLearning Challenge Coming</li>
+                    <li id="done">30DaysOfPython Challenge Done</li>
+                    <li id="ongoing">30DaysOfJavaScript Challenge Ongoing</li>
+                    <li class="coming">30DaysOfReact Challenge Coming</li>
+                    <li class="coming">30DaysOfFullStack Challenge Coming</li>
+                    <li class="coming">
+                        30DaysOfDataAnalysis Challenge Coming
+                    </li>
+                    <li class="coming">30DaysOfReactNative Challenge Coming</li>
+                    <li class="coming">
+                        30DaysOfMachineLearning Challenge Coming
+                    </li>
                 </ul>
             </div>
         </div>
